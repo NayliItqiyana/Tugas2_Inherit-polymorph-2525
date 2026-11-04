@@ -1,9 +1,9 @@
 # Tugas 2: Praktikum Pemrograman Berorientasi Objek
 
-* **Mata Kuliah:** Praktikum Pemrograman Berorientasi Objek
-* **Kelas:** A
 * **Nama Lengkap:** Nayli Itqiyana
 * **NPM:** 250810701100025
+* **Kelas:** A
+* **Mata Kuliah:** Praktikum Pemrograman Berorientasi Objek
 * **Tautan Repository:** https://github.com/NayliItqiyana/Tugas2_Inherit-polymorph-2525.git
   
 ---
