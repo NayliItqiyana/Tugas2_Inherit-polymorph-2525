@@ -3,6 +3,7 @@ package soal2;
 public class TesSoal2 {
     public static void main(String[] args) {
         // Bagian A
+        System.out.println("--- Bagian A ---");
         Hewan h = new Kucing("Tom");
         h.makan();
         h.suara();
@@ -18,10 +19,12 @@ public class TesSoal2 {
         } else {
             System.out.println("h2 bukan instance dari Kucing, downcasting dilewati dengan aman.");
         }
-
+        
+        // Bagian B
         System.out.println("--- Bagian B ---");
         new B();
 
+        // Bagian C
         System.out.println("--- Bagian C ---");
         Lingkaran l1 = new Lingkaran(5);
         Titik l2 = new Titik();
