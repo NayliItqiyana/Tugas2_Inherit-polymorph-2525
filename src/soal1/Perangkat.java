@@ -59,6 +59,6 @@ public class Perangkat {
      * @return string informasi singkat
      */
     public String infoSingkat() {
-        return merek + " garansi " + garansiBulan + " bulan";
+        return merek + " | garansi " + garansiBulan + " bulan";
     }
 }
