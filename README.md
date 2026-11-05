@@ -78,7 +78,7 @@ Tugas2_Inherit-polymorph-2525/
 
 ## Prasyarat
 
-* **Java Development Kit (JDK):** Versi 17 atau yang terbaru.
+* **Java Development Kit (JDK):** Versi 21
 * **IDE Disarankan:** IntelliJ IDEA atau Visual Studio Code dengan ekstensi Java.
 
 ---
@@ -262,3 +262,17 @@ Makanya solusinya kita pake `protected` biar aman dan bisa diwarisin ke subclass
 3. **Kenapa `cetakStruk()` Tanpa `instanceof` tapi `hitungPerJenis()` Pakai `instanceof` di Soal 4?**
    * Di `cetakStruk()`, kita manfaatin **polimorfisme murni**. Setiap objek produk udah punya method `deskripsi()` dan `hitungHargaAkhir()` sendiri-sendiri, jadi sistem tinggal manggil aja secara dinamis tanpa peduli dia fisik, digital, atau langganan.
    * Sebaliknya, `hitungPerJenis()` butuh `instanceof` karena tugasnya menghitung rekapitulasi jumlah per kategori secara eksplisit. *Downcasting* dibutuhkan untuk mengecek tipe spesifiknya secara aman agar tidak terjadi *ClassCastException*.
+
+---
+
+## Batasan dan Pengembangan Lanjutan
+
+### Batasan
+- Data belum tersimpan permanen (*in-memory*).
+- Tampilan program masih berbasis CLI (terminal).
+
+---
+
+### Pengembangan Lanjutan
+- Integrasi ke basis data untuk penyimpanan permanen.
+- Pembuatan antarmuka visual (GUI).
